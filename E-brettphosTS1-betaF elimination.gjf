@@ -1,0 +1,10 @@
+%chk=brettphosTS1.chk
+%nprocshared=20
+%mem=10GB
+#p opt=(readfc,ts,noeigentest,nofreeze,maxstep=5) freq b3lyp/genecp nosymm
+guess=read geom=check empiricaldispersion=gd3
+
+Title Card Required
+
+0 1
+
